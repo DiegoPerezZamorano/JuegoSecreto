@@ -71,24 +71,7 @@ function generarNumeroSecreto() {
 }
 
 
-let promedioLista = [5,6,7,8,9,4];
 
-function encontrarPosicion(lista, elemento) {
-  // Recorremos la lista
-  for (let i = 0; i < promedioLista.length; i++) {
-      // Comparamos cada elemento con el elemento buscado
-      if (lista[i] === elemento) {
-          // Si encontramos el elemento, devolvemos su posición
-          return i;
-      }
-  }
-  // Si el elemento no se encuentra en la lista, devolvemos -1
-  return -1;
-}
-
-
-
-encontrarPosicion(promedioLista, 8)
 
 
 
